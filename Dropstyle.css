@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-image: url(Image.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.menu-bar{
+	background-color: yellow;
+	text-align: center;
+	
+}
+
+.menu-bar ul{
+	display: flex;
+	list-style: none;
+	color: hotpink;
+
+}
+.menu-bar ul li{
+	margin: 10px;
+    width: 600px;
+    padding: 20px;
+}
+.menu-bar ul li a{
+	text-decoration: none;
+	color: red;
+}
+
+.menu-bar ul li a:hover{
+	background-color:green ;
+	border-radius: 1px;
+}
+.menu-bar .fa{
+	margin-left: 8px;
+}
+
+
+.sub-menu{
+	display: none;
+
+}
+.menu-bar ul li:hover .sub-menu{
+	display: block;
+	margin-top: 15px;
+	margin-left: 15px;
+	background-color: green;
+	position: absolute;
+}
